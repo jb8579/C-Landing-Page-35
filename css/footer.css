@@ -334,17 +334,18 @@
   }
   
   .copyright {
-    padding: 28px 0;
+    padding: 20px 0;
     margin-top: 55px;
     background-color: #202020;
   }
-  .copyright span,
-  .copyright a {
-    color: #878787;
+  .copyright span, .copyright a {
+    color: #e3e3e3;
     -webkit-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
-  }
+    font-size: 13px;
+    font-weight: 500;
+}
   .copyright a:hover {
     color: #007bff;
   }
@@ -384,4 +385,20 @@
     background: #fa6742;
     border-color: #fa6742;
   }
+
+  .disclaimer {
+    padding-top: 40px;
+    margin-top: 60px;
+    border-top: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+p.footer-disclaimer-text {
+  color: #eeeff0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0px;
+  display: inline-flex;
+  gap: 20px;
+}
   

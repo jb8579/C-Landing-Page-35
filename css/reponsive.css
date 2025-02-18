@@ -98,4 +98,22 @@
     .dk-footer .contact-us.contact-us-last {
         margin-left: 0px !important;
     }
+
+    p.footer-disclaimer-text > img {
+        width: 210px;
+        height: auto;
+    }
+    p.footer-disclaimer-text {
+        color: #eeeff0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        margin: 0px;
+        display: grid !important;
+        gap: 20px;
+    }
+
+    .copyright span, .copyright a {
+        font-size: 11px;
+    }
 }

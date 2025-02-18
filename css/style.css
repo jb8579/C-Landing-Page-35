@@ -272,3 +272,19 @@ img.card-bonus-img-1 {
     padding: 5px 0px 15px 0px;
     line-height: 18px;
 }
+.subpage-banner{
+    background-image: url('../images/banner-01.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+}
+
+h1.sub-title {
+    color: #fff;
+    font-size: 40px;
+    font-family: "Exo 2", serif;
+    padding: 60px 0px;
+    text-align: center;
+    font-weight: 600;
+}
