@@ -117,3 +117,60 @@
         font-size: 11px;
     }
 }
+@media only screen and (max-width: 868px) and (min-width: 601px) {
+    .d-card-bonus-flex {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .barun451_card-bonus.card-03 {
+        min-width: 100%;
+        width: 100% !important;
+    }
+
+    .barun451_card-bonus {
+        min-width: 100%;
+        width: 100% !important;
+    }
+    .barun451_bonusoffer_section {
+        padding: 60px 0 40px 0px;
+        overflow: hidden;
+    }
+    .barun451_context_section {
+        padding: 30px 0;
+    }
+
+    p.footer-disclaimer-text {
+        display: contents !important;
+        gap: 20px;
+    }
+
+    .dk-footer .contact-us {
+        margin-top: 40px !important;
+    }
+
+    .footer-widget {
+        padding-top: 10px;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 869px) {
+    .container {
+        width: 100% !important;
+    }
+    .barun451_content h2 {
+        font-size: 20px !important;
+    }
+
+    .barun451_content p {
+        font-size: 16px;
+        line-height: 26px;
+        height: 80px;
+    }
+
+    .barun451_card-bonus {
+        max-width: 460px;
+    }
+}
