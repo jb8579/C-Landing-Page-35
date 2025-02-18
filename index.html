@@ -29,9 +29,54 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <style>
+            .barun-warning {
+                background: #bd0320;
+                text-align: center;
+            }
+            .barun-warning > p {
+                color: rgb(255 255 255);
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+                margin: 0;
+                padding: 10px 0;
+                font-family: "Exo 2",serif;
+                text-shadow: rgba(0, 0, 0, 0.4) 3px 3px 6px;
+            }
+            .barun-warning > p > a{
+                color: rgb(255 255 255);
+                text-decoration: underline;
+            }
+            .barun-warning > p > img {
+                width: 24px;
+                top: -2px;
+                margin-right: 3px;
+                position: relative;
+            }
+            @media screen and (max-width: 600px) {
+                .barun-warning > p > img {
+                    width: 15px;
+                    position: relative;
+                    top: -1px;
+                    margin-right: 2px;
+                }
+                .barun-warning > p {
+                    font-size: 9px;
+                    line-height: 12px;
+                    padding: 4px 4px 8px;
+                }
+            }
+        </style>
     </head>
 
     <body>
+        <div class="barun-warning">
+            <p>
+                <img src="images/18warning.png" alt="18+ Warning"> Nur für Erwachsene | Zutritt erst ab 18 Jahren. Spielen Sie verantwortungsbewusst. Unterstützung: <a href="https://www.BeGambleAware.org" target="_blank" rel="noopener">BeGambleAware.org</a> | Hotline: 0808 8020 133.
+            </p>
+        </div>
+
         <div class="barun451_home">
             <div class="container">
                 <div class="barun451_home_flex">
