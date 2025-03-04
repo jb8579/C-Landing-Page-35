@@ -123,6 +123,11 @@ button.golden-btn {
     outline: 0px;
     margin-top: 12px;
 }
+img.icon-promo-logo {
+    width: 55px !important;
+    height: auto;
+    padding: 0px !important;
+}
 @media screen and (max-width: 600px) {
     .braun-card-content {
         width: 78%;
