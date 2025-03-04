@@ -33,7 +33,7 @@
     margin: 0px;
 }
 .card-1 {
-    background-image: url('../images/card-01-bg.jpg');
+    background-image: url('../images/card-01-bg.webp');
     background-position: top 15% center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@
     height: 320px;
 }
 .card-4 {
-    background-image: url('../images/card-04-bg.png');
+    background-image: url('../images/card-04-bg.jpg');
     background-position: 12% 50%;
     background-size: auto;
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@
 }
 .card-5 {
     background-image: url('../images/card-05-bg.jpg');
-    background-position: 90% 50%;
+    background-position: bottom center;
     background-size: auto;
     background-repeat: no-repeat;
     position: relative;
@@ -82,12 +82,14 @@
     box-shadow: 0px 5px 10px rgba(100, 100, 100, 0.3);
     min-height: 265px;
 }
-
 .braun-card-content {
     background: radial-gradient(circle at -1% 57.5%, rgba(3, 0, 88, 0.849) 0%, rgba(7, 68, 155, 0.966) 90%);
     width: 360px;
     height: 320px;
     padding: 30px 15px;
+}
+.card-5 > .braun-card-content {
+    background: radial-gradient(circle at -1% 57.5%, rgba(8, 3, 141, 0.87) 0%, rgba(6, 83, 190, 0.801) 90%);
 }
 .braun-card-content > h2 {
     color: #ffffff;
@@ -181,9 +183,6 @@ button.golden-btn {
     }
     .promo-title {
         padding: 0px 0px 20px 0px;
-    }
-    .card-5 {
-        background-position: 85% 50%;
     }
 }
 @media only screen and (max-width: 360px) and (min-width: 300px) {
