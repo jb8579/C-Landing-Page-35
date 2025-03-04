@@ -161,6 +161,11 @@ button.golden-btn {
         background-position: 12% 50%;
     }
 }
+@media only screen and (max-width: 360px) and (min-width: 300px) {
+    .braun-card-content {
+        width: 82% !important;
+    }
+}
 @media only screen and (max-width: 868px) and (min-width: 601px) {
     .container.promo-sm-c {
         padding-left: 0px !important;
