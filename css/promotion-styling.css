@@ -29,7 +29,7 @@
     width: 42px;
     position: absolute;
     top: -3px;
-    right: 0px;
+    left: 0px;
     margin: 0px;
 }
 .card-1 {
@@ -61,7 +61,7 @@
 }
 .card-4 {
     background-image: url('../images/card-04-bg.png');
-    background-position: 75% 50%;
+    background-position: 12% 50%;
     background-size: auto;
     background-repeat: no-repeat;
     position: relative;
@@ -88,7 +88,6 @@
     width: 360px;
     height: 320px;
     padding: 30px 15px;
-    float: right;
 }
 .braun-card-content > h2 {
     color: #ffffff;
@@ -100,7 +99,6 @@
     padding-top: 12px;
     word-spacing: 1px;
     line-height: 50px;
-    text-align: right;
 }
 .braun-card-content > p {
     font-size: 18px;
@@ -109,7 +107,6 @@
     margin: 0;
     padding: 8px 0 15px;
     font-family: "Exo 2", serif;
-    text-align: right;
 }
 button.golden-btn {
     background: #db0021;
@@ -123,7 +120,6 @@ button.golden-btn {
     border: 1px solid #006f97;
     outline: 0px;
     margin-top: 12px;
-    float: right;
 }
 @media screen and (max-width: 600px) {
     .braun-card-content {
