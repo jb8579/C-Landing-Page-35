@@ -1,0 +1,213 @@
+.braun-promotiom-page {
+    background: #ededed;
+    padding: 40px 0px 40px 0px;
+}
+.promo-title {
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+}
+.promo-title > h2{
+    color: #161616;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: "Exo 2", serif;
+    font-size: 38px;
+    font-weight:700;
+    line-height: normal;
+}
+.promo-title > p{
+    font-size: 17px;
+    font-weight: 500;
+    color: #504f4f;
+    font-family: "Exo 2", serif;
+}
+.brarun-card{
+    cursor: pointer;
+    margin: 0px 12px;
+}
+.braun-card-content > h2 > img {
+    width: 42px;
+    position: absolute;
+    top: -3px;
+    left: 0px;
+    margin: 0px;
+}
+.card-1 {
+    background-image: url('../images/card-01-bg.jpg');
+    background-position: top 15% center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    height: 320px;
+}
+.card-2 {
+    background-image: url('../images/card-02-bg.jpg');
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    height: 320px;
+}
+.card-3 {
+    background-image: url('../images/card-03-bg.jpg');
+    background-position: center left 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    height: 320px;
+}
+.card-4 {
+    background-image: url('../images/card-04-bg.png');
+    background-position: 35% 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    height: 320px;
+}
+.brarun-card{
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 10px rgba(100, 100, 100, 0.3);
+    min-height: 265px;
+}
+
+.braun-card-content {
+    background: radial-gradient(circle at -1% 57.5%, rgba(3, 0, 88, 0.849) 0%, rgba(7, 68, 155, 0.966) 90%);
+    width: 360px;
+    height: 320px;
+    padding: 30px 15px;
+}
+.braun-card-content > h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px #000000a6;
+    font-family: "Exo 2", serif;
+    font-size: 37px;
+    font-weight: 600;
+    padding-top: 12px;
+    word-spacing: 1px;
+    line-height: 50px;
+}
+.braun-card-content > p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+    padding: 8px 0 15px;
+    font-family: "Exo 2", serif;
+}
+button.golden-btn {
+    background: #db0021;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: 1px solid #006f97;
+    outline: 0px;
+    margin-top: 12px;
+}
+@media screen and (max-width: 600px) {
+    .braun-card-content {
+        width: 78%;
+        height: 280px;
+    }
+    .container.promo-sm-c {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .braun-card-content > h2 {
+        font-size: 28px;
+        padding-top: 15px;
+        word-spacing: 0px;
+        line-height: normal;
+    }
+    .braun-card-content > p {
+        font-size: 15px;
+        margin: 0;
+        padding: 5px 0px 10px;
+        line-height: 22px;
+    }
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4 {
+        height: 280px;
+    }
+    .braun-card-content > h2 > img {
+        top: -5px;
+    }
+    .promo-title > h2 {
+        font-size: 34px;
+    }
+    .promo-title > p {
+        font-size: 16px;
+        line-height: normal;
+    }
+    button.golden-btn {
+        font-size: 16px;
+        padding: 10px 14px;
+        margin-top: 18px;
+    }
+    .card-3 {
+        background-position: center;
+    }
+    .card-1 {
+        background-position: 12% 50%;
+    }
+}
+@media only screen and (max-width: 868px) and (min-width: 601px) {
+    .container.promo-sm-c {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        width: 98% !important;
+        overflow: hidden;
+    }
+    .braun-card-content {
+        width: 82%;
+        height: 280px;
+    }
+    .brarun-card {
+        cursor: pointer;
+        margin: 0px 8px;
+    }
+    
+    .braun-card-content > h2 {
+        font-size: 28px;
+        padding-top: 15px;
+        word-spacing: 0px;
+        line-height: normal;
+    }
+    .braun-card-content > p {
+        font-size: 15px;
+        margin: 0;
+        padding: 5px 0px 10px;
+        line-height: 22px;
+    }
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4 {
+        height: 280px;
+    }
+    .braun-card-content > h2 > img {
+        top: -5px;
+    }
+    .promo-title > h2 {
+        font-size: 34px;
+    }
+    .promo-title > p {
+        font-size: 16px;
+        line-height: normal;
+    }
+    button.golden-btn {
+        font-size: 16px;
+        padding: 10px 14px;
+        margin-top: 18px;
+    }
+}
