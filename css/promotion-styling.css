@@ -91,6 +91,9 @@
 .card-5 > .braun-card-content {
     background: radial-gradient(circle at -1% 57.5%, rgba(8, 3, 141, 0.87) 0%, rgba(6, 83, 190, 0.801) 90%);
 }
+.card-3 > .braun-card-content {
+    background: radial-gradient(circle at -1% 57.5%, rgba(8, 3, 141, 0.384) 0%, rgba(6, 83, 190, 0.74) 90%);
+}
 .braun-card-content > h2 {
     color: #ffffff;
     text-transform: uppercase;
